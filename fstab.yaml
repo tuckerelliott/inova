@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: "https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/aem-boilerplate-xwalk/main"
+    url: "https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/inova/main"
     type: "markup"
     suffix: ".html"
 
