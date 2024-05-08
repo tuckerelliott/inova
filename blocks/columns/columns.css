@@ -65,7 +65,7 @@ main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-
 
 main .section.banner.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div:nth-child(1) {
   flex: none;
-  width: 66%;
+  width: 61%;
 }
 
 main .section.banner.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div:nth-child(2) {
