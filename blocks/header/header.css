@@ -15,10 +15,14 @@ header nav {
   align-items: center;
   gap: 0 2em;
   margin: auto;
-  max-width: 1264px;
+ /* max-width: 1264px; */
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+  font-size: 1.25rem;
+  color: #0e296b;
+  font-family: "Basis Grotesque Pro Bold";
+  font-weight: 900;
 }
 
 header nav[aria-expanded="true"] {
@@ -148,7 +152,7 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
+  width: 224px;
   height: auto;
 }
 
@@ -233,7 +237,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
-    font-weight: 500;
+    font-weight: 900;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {

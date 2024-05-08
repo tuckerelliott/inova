@@ -2,13 +2,33 @@ footer {
   padding: 2rem;
   background-color: var(--light-color);
   font-size: var(--body-font-size-s);
+  background: #0e296b url(https://www.inova.org//themes/custom/inova_public/assets/bg/pattern-dark.svg) no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 
 footer .footer {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: auto;
+  text-align: left;
 }
 
 footer .footer p {
   margin: 0;
+  color: #baccd8;
+}
+
+footer .footer p strong {
+  margin: 0;
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+footer .footer img {
+  width: 300px;
+  padding: 50px 0px;
+}
+
+footer .columns > div {
+  align-items: start;
 }

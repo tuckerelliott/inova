@@ -31,3 +31,37 @@
     order: unset;
   }
 }
+
+main .section.bg-green.columns-container .columns-wrapper .columns.block.columns-2-cols > div {
+  background-color: #0abf8d;
+}
+
+main .section.bg-orange.columns-container .columns-wrapper .columns.block.columns-2-cols > div {
+  background-color: #ff800d;
+}
+
+main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div {
+  background-color: #0e296b;
+  color: #FFF;
+}
+
+main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div > h2 {
+  background-color: #0e296b;
+  color: #FFF;
+}
+
+main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div > p.button-container > a.button {
+  background-color: #0e296b;
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+main .section.banner.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div:nth-child(1) {
+  flex: none;
+  width: 66%;
+}
+
+main .section.banner.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div:nth-child(2) {
+  flex: none;
+  width: 33%;
+}

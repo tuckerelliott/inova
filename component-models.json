@@ -185,5 +185,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "embed",
+    "fields": [
+              {
+         "component": "text-input",
+         "valueType": "string",
+         "name": "path",
+         "label": "Path",
+         "value": ""
+       }
+     ]
   }
 ]
