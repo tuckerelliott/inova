@@ -19,7 +19,7 @@
 /* colors */
 --text-color: #000000;
 --link-color: #0e296b;
---link-hover-color: #2d72a8;
+--link-hover-color: #0e296b;
 --background-color: #ffffff;
 --overlay-background-color: #eeeeee;
 --highlight-background-color: #cccccc;
@@ -121,6 +121,13 @@ h3 { font-size: var(--heading-font-size-l) }
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
 h6 { font-size: var(--heading-font-size-xs) }
+
+h3 {
+  font-family: "Basis Grotesque Pro";
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: .375rem;
+}
 
 h4 {
   font-family: "Basis Grotesque Pro Bold";

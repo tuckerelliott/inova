@@ -47,6 +47,10 @@ main .section.bg-orange.columns-container .columns-wrapper .columns.block.column
   background-color: #ff800d;
 }
 
+main .section.bg-light-grey.columns-container .columns-wrapper .columns.block.columns-2-cols > div {
+  background-color: #f1f5f8;
+}
+
 main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div {
   background-color: #0e296b;
   color: #FFF;
