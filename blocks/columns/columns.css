@@ -13,6 +13,7 @@
 
 .columns > div > .columns-img-col {
   order: 0;
+  margin: 0px;
 }
 
 .columns > div > .columns-img-col img {
@@ -29,6 +30,7 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    margin: 25px;
   }
 }
 
@@ -46,6 +48,11 @@ main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-
 }
 
 main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div > h2 {
+  background-color: #0e296b;
+  color: #FFF;
+}
+
+main .section.bg-blue.columns-container .columns-wrapper .columns.block.columns-2-cols > div > div > h4 {
   background-color: #0e296b;
   color: #FFF;
 }

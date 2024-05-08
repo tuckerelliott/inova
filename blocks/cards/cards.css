@@ -14,7 +14,18 @@
   line-height: 1;
   font-size: 1.5rem;
   border-radius: 5px;
+}
+
+.cards > ul > li:nth-child(1) {
   border-bottom: 10px solid #ff800d;
+}
+
+.cards > ul > li:nth-child(2) {
+  border-bottom: 10px solid #3bbbea;
+}
+
+.cards > ul > li:nth-child(3) {
+  border-bottom: 10px solid #e458a5;
 }
 
 .cards .cards-card-body {
