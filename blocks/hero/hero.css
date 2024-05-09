@@ -10,6 +10,7 @@ main .hero-container {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  height: 520px;
 }
 
 .hero h1 {
@@ -44,7 +45,7 @@ main .hero-container {
 
 .hero.block > div > div {
   width: 35%;
-  padding: 80px 30px;
+  padding: 8px 30px;
 }
 
 .hero a:any-link, button {
