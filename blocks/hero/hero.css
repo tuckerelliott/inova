@@ -67,3 +67,18 @@ main .hero-container {
   text-overflow: ellipsis;
   border-radius: 30px;
 }
+
+@media (width <= 900px) {
+  .hero.block > div > div {
+    width: 90%;
+    padding: 5px 5px;
+}
+  .hero h1 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0e296b;
+    font-size: 2.5rem;
+    font-weight: 450;
+  }
+}
